@@ -7,6 +7,13 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+        'heading': ['Montserrat', 'sans-serif'],
+        'body': ['Helvetica', 'Arial', 'sans-serif']
+    },
+    container: {
+        padding: '1rem',
+    },
     extend: {
         fontSize: {
             '8xl': "clamp(3.125rem, -0.7813rem + 12.5vw, 6.25rem)",

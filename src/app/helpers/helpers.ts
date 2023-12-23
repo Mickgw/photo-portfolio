@@ -20,7 +20,7 @@ export const  getAlbumMetadata = () : PostMetadataProps[] => {
             metaTitle: matterResult.data.metaTitle,
             description: matterResult.data.description,
             year: matterResult.data.date,
-            images: matterResult.data.images,
+            imagesFolder: matterResult.data.imagesFolder,
             slug: fileName.replace(".md", ""),
         }
     })
