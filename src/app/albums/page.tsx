@@ -11,7 +11,6 @@ export const metadata: Metadata = {
 export default function Albums() {
     return (
         <>
-            <h1 className="text-[15vw]">Albums</h1>
             <div>
                 <AlbumPreviews />
             </div>
