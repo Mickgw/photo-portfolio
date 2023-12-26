@@ -1,6 +1,4 @@
-import Head from "next/head";
 import { AlbumPreviews } from "../components/AlbumPreviews/AlbumPreviews";
-
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

@@ -7,6 +7,10 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    // colors: {
+    //     "base": '#ffffff',
+    //     "primary": '#e2e8f0',
+    // },
     fontFamily: {
         'heading': ['Montserrat', 'sans-serif'],
         'body': ['Helvetica', 'Arial', 'sans-serif']
@@ -14,6 +18,7 @@ const config: Config = {
     container: {
         padding: '1rem',
     },
+
     extend: {
         fontSize: {
             '9xl': "clamp(2.1875rem, 0.0689rem + 10.5932vw, 10rem)",
@@ -23,7 +28,7 @@ const config: Config = {
             '5xl': "clamp(1.5625rem, 1.054rem + 2.5424vw, 3.4375rem)",
             '4xl': "clamp(2.1875rem, 0.2344rem + 6.25vw, 3.75rem)",
             '3xl': "clamp(1.5rem, 1.1441rem + 1.7797vw, 2.8125rem)",
-            '2xl': "clamp(1.5rem, 0.25rem + 4vw, 2.5rem)",
+            '2xl': "clamp(1.5rem, 0.25rem + 4vw, 2.3rem)",
         },
     },
   },
