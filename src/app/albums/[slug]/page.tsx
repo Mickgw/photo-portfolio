@@ -13,7 +13,7 @@ export async function generateStaticParams() {
 export async function generateMetadata(props: any) {
     const album = getAlbumContent(props.params.slug);
     return {
-        title: album?.metaTitle,
+        title: `Pictures by Mick - ${album?.title}`,
         description: album?.description,
     };
 }
